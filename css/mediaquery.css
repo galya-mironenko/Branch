@@ -1,0 +1,283 @@
+@media (max-width: 1200px) {
+    .section__menu__wrap {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+    .section__menu-reverce {
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+        flex-direction: row-reverse;
+    }
+    .section__menu__img {
+        padding: 15px 0px;
+    }
+    .wrapper__menu {
+        padding: 0px 5px;
+    }
+    .design {
+        background-image: none;
+    }
+    .section__our__block {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+    .our-menu__item {
+        padding-top: 30px;
+    }
+    .our-menu__container {
+        padding-bottom: 70px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .header__menu a {
+        font-size: 26px;
+    }
+    .section__info .container {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+    .section__text h2 {
+        text-align: center;
+    }
+    .section__text p {
+        padding: 0 47px;
+        text-align: justify;
+    }
+    .section__photo img {
+        width: 400px;
+    }
+    .section__menu__img img {
+        width: 200px;
+    }
+    .container__menu {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .container__design {
+        padding: 0px 10px;
+    }
+    .new-meny__text .menu__txt {
+        width: 225px;
+    }
+    .footer__text {
+        display: none;
+    }
+    .container__footer {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .section__empty {
+        display: none;
+    }
+    form {
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        padding-bottom: 40px;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+    .colum input:first-of-type,
+    .colum select,
+    .colum-two {
+        margin-bottom: 30px;
+    }
+}
+
+@media (min-width: 768px) {
+    .section {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .header__menu a {
+        font-size: 20px;
+    }
+    .list {
+        display: none;
+        margin-top: 10px;
+    }
+    .section {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+    }
+    .header__logo {
+        padding-top: 13px;
+    }
+    .header__menu {
+        padding: 15px 30px;
+        -webkit-box-align: end;
+        -ms-flex-align: end;
+        align-items: end;
+        background-color: #19303b;
+        opacity: 0.7;
+    }
+    .header-item {
+        padding: 10px;
+    }
+    .header__text {
+        width: 400px;
+        margin: 70px auto;
+        padding: 30px 0;
+    }
+    .header__subtitle {
+        font-size: 80px;
+    }
+    .header__text h1 {
+        font-size: 60px;
+    }
+    .header__btn {
+        font-size: 25px;
+    }
+    .section__photo {
+        margin-top: 20px;
+    }
+    .section-info .container {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+    .section__text h2 {
+        text-align: center;
+    }
+    .section__text p {
+        padding: 0 47px;
+        text-align: justify;
+    }
+    .section__list {
+        padding: 55px 0;
+    }
+    .section__list .container {
+        display: flow-root;
+    }
+    .section__list-wrap {
+        padding-bottom: 40px;
+        text-align: center;
+    }
+    .section__list-wrap:last-of-type {
+        padding-bottom: 0px;
+    }
+    .design__item {
+        padding: 0px 10px;
+    }
+    .new-menu__list__wrapper {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: stretch;
+        -ms-flex-pack: stretch;
+        justify-content: stretch;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+    .section__empty {
+        display: none;
+    }
+    .section__new-menu {
+        padding-top: 100px;
+    }
+    .footer__colum li {
+        font-size: 18px;
+    }
+    .footer__caption-nav {
+        font-size: 20px;
+    }
+    .container__footer {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .fa {
+        margin-left: 5px;
+    }
+}
+
+@media (max-width: 420px) {
+    .header__text {
+        width: 300px;
+        margin: 50px auto;
+    }
+    .header__subtitle {
+        font-size: 70px;
+    }
+    .header__text h1 {
+        font-size: 36px;
+    }
+    .header__btn {
+        font-size: 22px;
+    }
+    .section__photo img {
+        width: 300px;
+    }
+    .section__text p {
+        padding: 0 20px;
+    }
+    .section__list-wrap {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .section__menu__img img {
+        width: 150px;
+    }
+    .section__menu__text {
+        padding: 0px 10px;
+    }
+    .caption__menu {
+        padding-bottom: 15px;
+    }
+    .menu__txt {
+        padding-bottom: 15px;
+    }
+    .new-meny-text .menu-txt {
+        width: 207px;
+    }
+    .our-menu__item img {
+        width: 300px;
+    }
+    .our-menu__item__txt {
+        width: 300px;
+    }
+}
